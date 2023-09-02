@@ -1,0 +1,55 @@
+import { Component } from '@angular/core';
+
+
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+}) 
+export class AppComponent {
+  title = 'AngIntro';
+
+  // bool:boolean = false;
+  // userName: string = '';
+  postTitle: string ='';
+  postDetail: string ='';
+  postImgUrl : string = '';
+  postUrl : string = '';
+
+  background:boolean=false;
+  bool:boolean=false;
+  // buttonClick(){
+  //   console.log('Button Click Event Worked');
+
+  // }
+
+  // onKeyUp(username:any){
+    
+  //   console.log(username);
+  // }
+
+
+   onKeyUp(){
+    console.log(this.postTitle);
+    console.log(this.postDetail);
+   }
+
+  buttonClick(){
+    if (this.bool === false){
+      this.background=true;
+      this.bool = true;
+    }else if(this.bool === true){
+      this.background=false;
+      this.bool = false;
+    }
+
+    
+    // if(this.background === true){
+    //   this.background = false;
+    // }
+  }
+
+}
+
+

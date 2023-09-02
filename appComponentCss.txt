@@ -1,0 +1,31 @@
+.title{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.input-detail{
+  padding-bottom: 150px;
+  width: 210px;
+  padding-left: 10px;
+}
+
+button{
+  height: 15px;
+  width: 10px;
+  margin-right: 10px;
+}
+
+.button-p{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+input{
+  margin-top: 20px;
+}
+
+.div-form{
+  text-align: center;
+}
